@@ -33,6 +33,7 @@ export async function start(app: Application) {
 export function update(ticker: Ticker){
     switch (SceneState.current) {
         case SceneState.Scene.Menu:
+            MenuScene.update();
             break;
         case SceneState.Scene.AceOfShadows:
             CardsScene.update(ticker);

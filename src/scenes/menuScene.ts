@@ -33,7 +33,7 @@ function layout(app: Application, spriteList: Container[]) {
         const totalHeight = app.canvas.clientHeight;
         const spacePerItem = totalHeight / spriteList.length;
         spriteList.forEach(item => {
-            item.height = spacePerItem;
+            item.height = Math.min(spacePerItem, item.height);
             item.scale.x = item.scale.y;
         });
     } else {

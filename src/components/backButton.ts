@@ -1,5 +1,5 @@
 ﻿import {Container, Application} from "pixi.js";
-import * as SceneState from "../core/SceneState.ts";
+import * as SceneState from "../Core/sceneState.ts";
 import * as button from "./button.ts";
 
 export async function createBackButton(app: Application): Promise<Container> {

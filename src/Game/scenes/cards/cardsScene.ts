@@ -1,7 +1,6 @@
 ﻿import {Application, Assets, Container, ContainerChild, PointData, Sprite, Texture, Ticker} from "pixi.js";
-import {createBackButton} from "../../components/backButton.ts";
 import cardImage from '/images/card.png';
-import {addAnimation} from "../../core/Animator.ts";
+import {addAnimation} from "../../../Core/animator.ts";
 
 const frequencyMS = 1000;
 const cards = 144;
@@ -12,8 +11,6 @@ let cardTexture: Texture;
 let secondaryStackPosition: PointData;
 
 export async function start(app: Application, SceneContainer: Container<ContainerChild>) {
-    const button = await createBackButton(app);
-    SceneContainer.addChild(button);
     const clientWidth = app.canvas.clientWidth;
     const clientHeight = app.canvas.clientHeight;
     mainContainer = new Container();

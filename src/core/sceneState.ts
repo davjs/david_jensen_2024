@@ -1,4 +1,4 @@
-﻿import {EventEmitter} from "../utils/EventEmitter.ts";
+﻿import {EventEmitter} from "./utils/EventEmitter.ts";
 
 export enum Scene {
     Menu,

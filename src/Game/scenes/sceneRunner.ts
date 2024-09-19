@@ -1,5 +1,5 @@
 ﻿import {Application, Container, Ticker} from "pixi.js";
-import * as SceneState from "../core/SceneState.ts";
+import * as SceneState from "../../Core/sceneState.ts";
 import * as MenuScene from "./menuScene.ts";
 import * as CardsScene from "./cards/cardsScene.ts";
 import * as WordsScene from "./words/wordsScene.ts";

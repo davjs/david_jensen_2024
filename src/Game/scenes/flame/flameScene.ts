@@ -1,5 +1,4 @@
-﻿import {Application, Assets, Container, ContainerChild, PointData, Sprite, Ticker} from "pixi.js";
-import {createBackButton} from "../../components/backButton.ts";
+﻿import {Application, Assets, Container, ContainerChild, PointData, Sprite} from "pixi.js";
 import softImage from '/images/blob.png';
 import {ColorSource} from "pixi.js";
 
@@ -21,8 +20,6 @@ let emitterPosition: PointData;
 export async function start(app: Application, SceneContainer: Container<ContainerChild>) {
     clientWidth = app.canvas.clientWidth;
     clientHeight = app.canvas.clientHeight;
-    const button = await createBackButton(app);
-    SceneContainer.addChild(button);
     emitterPosition = {
         x: clientWidth * 0.5,
         y: clientHeight * 0.5

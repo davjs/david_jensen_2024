@@ -1,5 +1,4 @@
-﻿import {Application, Assets, Container, ContainerChild, TextStyle, Texture, Ticker} from "pixi.js";
-import {createBackButton} from "../../components/backButton.ts";
+﻿import {Application, Assets, Container, ContainerChild,  Texture, Ticker} from "pixi.js";
 import nojiImage from '/images/not_emoji.png';
 import {flowLayout} from "./flowLayout.ts";
 
@@ -15,10 +14,8 @@ const randomText = "Textus longus sine imaginibus etiam potest significare altam
 export async function start(app: Application, sceneContainer: Container<ContainerChild>) {
     clientWidth = app.canvas.clientWidth;
     clientHeight = app.canvas.clientHeight;
-    const button = await createBackButton(app);
     randomImage = await Assets.load(nojiImage);
     container = sceneContainer;
-    container.addChild(button);
     scramble();
 }
 

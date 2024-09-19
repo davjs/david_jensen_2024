@@ -1,6 +1,6 @@
 ﻿import {Application, Container, ContainerChild} from "pixi.js";
-import * as SceneState from "../../Core/sceneState.ts";
-import {Scene} from "../../Core/sceneState.ts";
+import * as SceneState from "../../core/sceneState.ts";
+import {Scene} from "../../core/sceneState.ts";
 import {createButton} from "../../components/button.ts";
 
 // Construct menu

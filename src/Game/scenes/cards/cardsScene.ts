@@ -1,6 +1,6 @@
 ﻿import {Application, Assets, Container, ContainerChild, PointData, Sprite, Texture, Ticker} from "pixi.js";
 import cardImage from '/images/card.png';
-import {addAnimation} from "../../../Core/animator.ts";
+import {addAnimation} from "../../../core/animator.ts";
 
 const frequencyMS = 1000;
 const cards = 144;

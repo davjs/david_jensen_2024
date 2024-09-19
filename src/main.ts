@@ -1,6 +1,6 @@
 import {Application, Assets, Ticker} from 'pixi.js';
 import './style.css'
-import * as Core from "./Core/core.ts";
+import * as Core from "./core/core.ts";
 import * as UI from "./UI/UI.ts";
 import * as Game from "./Game/game.ts";
 

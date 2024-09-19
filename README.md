@@ -1,9 +1,7 @@
 ## Prerequisites
 
 Make sure you have the following installed:
-
 - [Node.js](https://nodejs.org/) (v16 or higher recommended)
-- [npm](https://www.npmjs.com/)
 
 ## Installation
 

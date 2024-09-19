@@ -1,6 +1,6 @@
 ﻿import {Application, BitmapText, Container, Ticker} from "pixi.js";
 import {OnSceneChanged, Scene} from "../core/sceneState.ts";
-import {createBackButton} from "../components/backButton.ts";
+import {createBackButton} from "./components/backButton.ts";
 
 // Bitmap text better handles frequent changes.
 let fpsText: BitmapText;

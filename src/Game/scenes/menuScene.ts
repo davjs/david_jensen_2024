@@ -1,7 +1,7 @@
 ﻿import {Application, Container, ContainerChild} from "pixi.js";
 import * as SceneState from "../../core/sceneState.ts";
 import {Scene} from "../../core/sceneState.ts";
-import {createButton} from "../../components/button.ts";
+import {createButton} from "../../UI/components/button.ts";
 
 // Construct menu
 export async function start(app: Application, SceneContainer: Container<ContainerChild>) {
